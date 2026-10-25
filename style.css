@@ -1,0 +1,86 @@
+/* Dinh dang chung */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf4ff;
+    color: #333;
+}
+
+/* Khung chua noi dung */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Tieu de chinh */
+h1 {
+    color: #2563eb;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+/* Doan van */
+.container>p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #475569;
+    margin-bottom: 35px;
+}
+
+/* Khoi co hinh anh nen */
+.important-content {
+    background-image: url("background.jpg");
+    background-color: #2563eb;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 400px;
+    padding: 30px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Khung noi dung tren anh */
+.content-box {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 35px;
+    border-radius: 12px;
+    max-width: 650px;
+}
+
+.content-box h2 {
+    font-size: 27px;
+    margin-top: 0;
+}
+
+.content-box p {
+    line-height: 1.8;
+}
+
+/* Hien thi tren dien thoai */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .important-content {
+        min-height: 320px;
+        padding: 15px;
+    }
+
+    .content-box {
+        padding: 20px;
+    }
+}
